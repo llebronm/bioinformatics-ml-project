@@ -16,6 +16,12 @@ Provides validation functions to ensure the integrity and consistency of gene ex
 - `validate_count_matrix(counts_df)`: checks that the count matrix contains no missing values, negative values, or non-integer counts.
 - `validate_metadata(metadata, required_columns=None)`: checks that the metadata contains all specified required columns.
 
+## dea.py
+
+Provides fold-safe differential expression analysis for feature selection.
+
+- `run_differential_expression(counts, conditions, alpha=0.05, n_cpus=4)`: fits pyDESeq2 using Cancer and Healthy labels, and returns the sorted results table plus genes with adjusted p-value below `alpha`. Pass only training-fold counts and labels when evaluating a model.
+
 ## visualization.py
 
 Provides utilities for saving analysis figures in a centralized project directory.
