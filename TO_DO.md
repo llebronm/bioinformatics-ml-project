@@ -6,3 +6,9 @@ Cambiar el nombre de - [Expected folders:](README.md) DATOS_CANCER and DATOS_CON
 
 Empezar a escribir [methodologies](docs/methodologies/) y ciertos [concepts](docs/concepts/) importantes.
 
+Save figures in all notebooks
+
+Reorganize notebook 03_diff_expression and 04_cross-validation
+
+
+Check Nested Cross validation
